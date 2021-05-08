@@ -1,4 +1,4 @@
-package jdk;
+package mjdk;
 
 public class Thread {
 }

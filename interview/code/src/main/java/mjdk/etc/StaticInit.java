@@ -1,4 +1,4 @@
-package jdk.etc;
+package mjdk.etc;
 
 import java.util.List;
 

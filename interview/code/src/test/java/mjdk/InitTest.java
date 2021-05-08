@@ -1,11 +1,11 @@
-package jdk;
+package mjdk;
 
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import jdk.etc.ClassInit;
-import jdk.etc.StaticInit;
+import mjdk.etc.ClassInit;
+import mjdk.etc.StaticInit;
 
 public class InitTest {
 
