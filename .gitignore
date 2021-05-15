@@ -2,3 +2,5 @@ local
 interview/code/.idea
 interview/code/target
 interview/code/code.iml
+interview/code/logs
+interview/code/catalina.base_IS_UNDEFINED/logs
