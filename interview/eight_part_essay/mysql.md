@@ -7,9 +7,6 @@
 * [2021Java面试笔记](https://shimo.im/docs/V3Q8vgdvGgwqKgY9/read)
 * [数据库SQL调优的几种方式](https://blog.csdn.net/u010520146/article/details/81161762)
 
-
-
-
 ## 基本概念
 #### 数据库系统 数据库管理系统 数据库 存储引擎
 
@@ -17,10 +14,7 @@
 
 #### 存储引擎
 * mysql的存储引擎:  InnoDB、MyISAM、MEMORY 等存储引擎。InnoDB的灾难恢复性好、支持事务、使用行级锁和
-* 
-* 
-* 
-* 
+*
 
 ## 技术参数
 * TPS

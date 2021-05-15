@@ -11,7 +11,7 @@
 
 ## DataType
 #### HashMap
-#### 
+
 
 
 http://www.fredosaurus.com/JavaBasics/methods/method-commentary/methcom-30-multiple-return.html

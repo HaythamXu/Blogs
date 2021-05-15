@@ -19,12 +19,12 @@ public class TreeApplication {
 
     @BeforeEach
     public void beforeEach() {
-        List<Integer> bstFullArray = List.of(0,1,2,3,4,5,6);
-        TreeApplication.ROOT_FULL = BuildTree.bfsToBT(bstFullArray, 0);
-        List<Integer> bstNotFullArray = List.of(0,1,2,3,4,5);
-        TreeApplication.ROOT_NOT_FULL = BuildTree.bfsToBT(bstNotFullArray, 0);
-        List<Integer> bstFullArrayWithNull = new ArrayList<>(){{add(0);add(1);add(2);add(3);add(4); add(null); add(6);}};
-        TreeApplication.ROOT_WITH_NULL = BuildTree.bfsToBT(bstFullArrayWithNull, 0);
+//        List<Integer> bstFullArray = List.of(0,1,2,3,4,5,6);
+//        TreeApplication.ROOT_FULL = BuildTree.bfsBuildTree(bstFullArray);
+//        List<Integer> bstNotFullArray = List.of(0,1,2,3,4,5);
+//        TreeApplication.ROOT_NOT_FULL = BuildTree.bfsBuildTree(bstNotFullArray);
+//        List<Integer> bstFullArrayWithNull = new ArrayList<>(){{add(0);add(1);add(2);add(3);add(4); add(null); add(6);}};
+//        TreeApplication.ROOT_WITH_NULL = BuildTree.bfsBuildTree(bstFullArrayWithNull);
     }
 
     @Test
@@ -45,15 +45,41 @@ public class TreeApplication {
         Assertions.assertEquals(SearchTree.getTreeMaxHeight(TreeApplication.ROOT_FULL), 3);
     }
 
-    @Test void t004FindNodeByVal() {
+    @Test
+    public void t004FindNodeByVal() {
         Assertions.assertEquals(SearchTree.findNode(TreeApplication.ROOT_FULL, 4).val, 4);
     }
 
-    @Test void t005GetNodeHeight() {
+    @Test
+    public void t005GetNodeHeight() {
         Assertions.assertEquals(SearchTree.getNodeHeight(TreeApplication.ROOT_FULL, 2), 2);
     }
 
+    @Test
+    public void t006BuildTree() {
+        List<Integer> integerList = new ArrayList<>() {{add(0);
+                                                        add(null);add(2);
+                                                        add(null);add(null);add(null);add(6);
+                                                        add(null);add(null);add(null);add(null);add(null);add(null);add(null);add(14);}};
+        BTNode root = BuildTree.bfsBuildTree(integerList);
+        System.out.println(root.toString());
+        System.out.println(OperateTree.bfsSearchWithoutNull(root, null).toString());
+        System.out.println(OperateTree.bfsSearch(root, null).toString());
+    }
+
+    @Test
+    public void t007BuildTree() {
+        List<Integer> integerList = new ArrayList<>() {{add(0);
+            add(1);add(2);
+            add(null);add(null);add(5);add(6);
+            add(null);add(null);add(null);add(null);add(11);add(null);add(13);add(14);}};
+        BTNode root = BuildTree.bfsBuildTree(integerList);
+        System.out.println(root.toString());
+        System.out.println(OperateTree.bfsSearchWithoutNull(root, null).toString());
+        System.out.println(OperateTree.bfsSearch(root, null).toString());
+    }
+
     private void checkTree(BTNode actualTree, List<Integer> expectedTree) {
-        Assertions.assertEquals(OperateTree.breadthFirstSearch(actualTree, null), expectedTree);
+        Assertions.assertEquals(OperateTree.bfsSearchWithoutNull(actualTree, null), expectedTree);
     }
 }
