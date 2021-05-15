@@ -1,11 +1,50 @@
+#### OW
+* Tools [Sublime plugin](https://packagecontrol.io/)
+* Install and Config [nvm](https://github.com/nvm-sh/nvm)
+* Camunda [camunda](https://docs.camunda.org)
+
+* [CORS](https://www.cnblogs.com/zkh101/p/7600726.html)
+
+
+#### keyword
+* jks
+* 自签名
+* 1-n数据库关系 fetch = FetchType.EAGER， cascade = CascadeType.REMOVE
+* 数据库 事务
+* 数据库返回码
+* hosted application
+* Mock MockBean
+* @Transational
+* Java 切片(知乎某文章)
+* 拦截器(Rex do Create 代码)
+
+#### 20210415
+* 泛型
+* 数据库，1-n关系，级联 删除.
+
+
+
+#### Java link
+* [Java Basics](http://www.fredosaurus.com/JavaBasics/methods/method-commentary/methcom-30-multiple-return.html)
+* [理解Java中字符流与字节流的区别](https://www.cnblogs.com/absfree/p/5415092.html)
+* [Java 流(Stream)、文件(File)和IO](https://www.runoob.com/java/java-files-io.html)
+* [java IO(File类、字节流与字符流、字节字符转换流)](https://cloud.tencent.com/developer/article/1453811#:~:text=%E5%AD%97%E8%8A%82%E6%B5%81%E4%B8%8E%E5%AD%97%E7%AC%A6%E6%B5%81,%E5%9C%A8Java.io%E5%8C%85%E4%B8%AD%E6%93%8D%E4%BD%9C%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9%E7%9A%84%E4%B8%BB%E8%A6%81%E6%9C%89%E4%B8%A4%E5%A4%A7%E7%B1%BB%EF%BC%9A%E5%AD%97%E8%8A%82%E6%B5%81%E3%80%81%E5%AD%97%E7%AC%A6%E6%B5%81%E3%80%82%E4%B8%A4%E7%B1%BB%E9%83%BD%E5%88%86%E4%B8%BA%E8%BE%93%E5%85%A5%E5%92%8C%E8%BE%93%E5%87%BA%E6%93%8D%E4%BD%9C%E3%80%82%E5%9C%A8%E5%AD%97%E8%8A%82%E6%B5%81%E4%B8%AD%E8%BE%93%E5%87%BA%E6%95%B0%E6%8D%AE%E4%B8%BB%E8%A6%81%E6%98%AF%E4%BD%BF%E7%94%A8OutputStream%E5%AE%8C%E6%88%90%EF%BC%8C%E8%BE%93%E5%85%A5%E4%BD%BF%E7%94%A8%E7%9A%84%E6%98%AFInputStream%EF%BC%8C%E5%9C%A8%E5%AD%97%E7%AC%A6%E6%B5%81%E4%B8%AD%E8%BE%93%E5%87%BA%E4%B8%BB%E8%A6%81%E6%98%AF%E4%BD%BF%E7%94%A8Writer%E7%B1%BB%E5%AE%8C%E6%88%90%EF%BC%8C%E8%BE%93%E5%85%A5%E4%B8%BB%E8%A6%81%E6%98%AF%E4%BD%BF%E7%94%A8Reader%E7%B1%BB%E6%B5%81)
+* 
+* 
+*
+
+#### Node
+* [express set ip and CORS](https://blog.csdn.net/battlePlaze/article/details/103377054)
+
+
 #### 练级
 LeetCode https://leetcode-cn.com/
 https://leetcode-cn.com/problems/minimum-height-tree-lcci/
 
 
 #### 资讯
-* 2020 社招字节跳动 go 后端开发工程师一二三四五面面经 
-https://leetcode-cn.com/circle/discuss/A0YstA/
+* 2020 社招字节跳动 go 后端开发工程师一二三四五面面经
+  https://leetcode-cn.com/circle/discuss/A0YstA/
 
 
 python 树的遍历, 还不错的文档
@@ -26,98 +65,98 @@ https://zhuanlan.zhihu.com/p/62005586
 
 #### 技术面试经验
 * 这四十道经典Spring面试题，你都会了吗？
-https://zhuanlan.zhihu.com/p/93594713
+  https://zhuanlan.zhihu.com/p/93594713
 * Spring框架的原理解析
-https://zhuanlan.zhihu.com/p/44630574
+  https://zhuanlan.zhihu.com/p/44630574
 * 字节跳动Java岗面经：（JVM+volatile+GC+锁+Spring+Redis）
-https://zhuanlan.zhihu.com/p/84725956
+  https://zhuanlan.zhihu.com/p/84725956
 * 2020年JAVA大厂笔经面经
-https://zhuanlan.zhihu.com/p/109817699
+  https://zhuanlan.zhihu.com/p/109817699
 * java要想拿到offer是直接刷面经，还是一步一步按照学习路线来？
-https://www.zhihu.com/question/424191926/answer/1515420510
+  https://www.zhihu.com/question/424191926/answer/1515420510
 * Java Spring 自动配置。了解springBoot的自动配置的实现原理
-https://www.zhihu.com/zvideo/1333761249734217728
+  https://www.zhihu.com/zvideo/1333761249734217728
 * 如何学习 Spring ？学习 Spring 前要学习什么？
-https://www.zhihu.com/question/321913492/answer/668015904
+  https://www.zhihu.com/question/321913492/answer/668015904
 * Spring Bean的生命周期（非常详细）
-https://www.cnblogs.com/zrtqsk/p/3735273.html
-* spring原理 
-https://www.cnblogs.com/zhoudi/p/5820513.html
+  https://www.cnblogs.com/zrtqsk/p/3735273.html
+* spring原理
+  https://www.cnblogs.com/zhoudi/p/5820513.html
 * java项目管理工具
-https://blog.csdn.net/pingdouble/article/details/49617645
+  https://blog.csdn.net/pingdouble/article/details/49617645
 * 23 种设计模式详解（全23种）
-https://blog.csdn.net/A1342772/article/details/91349142
+  https://blog.csdn.net/A1342772/article/details/91349142
 * java8 orElse，orElseGet，orElseThrow的使用
-https://blog.csdn.net/enthan809882/article/details/103997326
+  https://blog.csdn.net/enthan809882/article/details/103997326
 * java中orElse()和orElseGet()的区别
-https://www.jianshu.com/p/790f7c185d3e
+  https://www.jianshu.com/p/790f7c185d3e
 * 学习 Spring Boot：（二十九）Spring Boot Junit 单元测试
-https://blog.csdn.net/weixin_30407099/article/details/98109262?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control
+  https://blog.csdn.net/weixin_30407099/article/details/98109262?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control
 * 单元测试利器-Mockito 中文文档
-https://blog.csdn.net/bboyfeiyu/article/details/52127551
+  https://blog.csdn.net/bboyfeiyu/article/details/52127551
 
 
 #### Java
 * java 中 new 对象 与 直接 赋值的对象为何不一样。
-https://blog.csdn.net/u012284017/article/details/20717447
-* 运行时给java对象动态的属性赋值 
-https://www.cnblogs.com/chinaifae/p/10190012.html
+  https://blog.csdn.net/u012284017/article/details/20717447
+* 运行时给java对象动态的属性赋值
+  https://www.cnblogs.com/chinaifae/p/10190012.html
 * Java - 数组拷贝的几种方式
-https://blog.csdn.net/u011669700/article/details/79323251
+  https://blog.csdn.net/u011669700/article/details/79323251
 * Java对象的深层复制与浅层复制
-https://www.iteye.com/blog/xiemingmei-1076159
+  https://www.iteye.com/blog/xiemingmei-1076159
 * Java如何复制对象
-https://blog.csdn.net/tounaobun/article/details/8491392
+  https://blog.csdn.net/tounaobun/article/details/8491392
 * java如何实现对象克隆
-https://jingyan.baidu.com/article/29697b9165b673ab20de3ca5.html
-如何提取JKS文件的证书和私钥
-https://jingyan.baidu.com/article/066074d61de50cc3c21cb0ba.html
+  https://jingyan.baidu.com/article/29697b9165b673ab20de3ca5.html
+  如何提取JKS文件的证书和私钥
+  https://jingyan.baidu.com/article/066074d61de50cc3c21cb0ba.html
 
 
 #### 数据结构
 * Python3算法之十二：相等的二叉树
-https://zhuanlan.zhihu.com/p/108671845
+  https://zhuanlan.zhihu.com/p/108671845
 * Python3二叉树实现
-https://www.jianshu.com/p/5703764753a2
+  https://www.jianshu.com/p/5703764753a2
 * Python 数据结构 tree 树
-https://blog.csdn.net/xuelians/article/details/79999284?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
+  https://blog.csdn.net/xuelians/article/details/79999284?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
 * Python3&数据结构之树结构
-https://blog.csdn.net/qq_38575545/article/details/84866367
-* 
+  https://blog.csdn.net/qq_38575545/article/details/84866367
+*
 
 
 
 #### SSO & SLO
 * 单点登录（SSO）看这一篇就够了
-https://www.jianshu.com/p/75edcc05acfd
-CAS单点登录SSO和单点退出SLO原理，序列图详解
-https://blog.csdn.net/qq_15022971/article/details/97667430
-IAS - Use IdP-Initiated Single Logout (SLO)
-https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/da2e4f9866dc45f0b4723ca41f051bea.html?q=logout
-SSO单点登录/登出
-https://blog.csdn.net/Tzhennan/article/details/84920634
-SSO单点登录/登出（cookie优化）
-https://blog.csdn.net/weixin_43866048/article/details/108955097
-SSO里面的SAML和OIDC到底讲了啥
-https://blog.csdn.net/teobler/article/details/106481377
-单点登录 – CAS与SAML之间的关系是什么？
-http://www.voidcn.com/article/p-cymjzwxn-bue.html
-过于详细！终于搞懂SSO里面的SAML和OIDC讲的啥了
-https://www.jianshu.com/p/62aa38f5ead7
-过于详细！终于搞懂SSO里面的SAML和OIDC讲的啥了
-https://blog.csdn.net/weixin_51954021/article/details/109679786
-SAML SSO从入门到放弃
-https://zhuanlan.zhihu.com/p/137506751
-SAML Web SSO学习
-https://blog.csdn.net/xiangguiwang/article/details/66476171
-基于SAML的单点登录/登出基本原理
-https://www.pianshen.com/article/48971548644/
-SAML2.0入门指南
-https://www.jianshu.com/p/636c1ee16eba
-How-to – Single sign on with Active directory and Apache
-https://smeretech.com/single-sign-active-directory-apache/
-How To Set Up Password Authentication with Apache on Ubuntu 18.04
-https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-apache-on-ubuntu-18-04
+  https://www.jianshu.com/p/75edcc05acfd
+  CAS单点登录SSO和单点退出SLO原理，序列图详解
+  https://blog.csdn.net/qq_15022971/article/details/97667430
+  IAS - Use IdP-Initiated Single Logout (SLO)
+  https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/da2e4f9866dc45f0b4723ca41f051bea.html?q=logout
+  SSO单点登录/登出
+  https://blog.csdn.net/Tzhennan/article/details/84920634
+  SSO单点登录/登出（cookie优化）
+  https://blog.csdn.net/weixin_43866048/article/details/108955097
+  SSO里面的SAML和OIDC到底讲了啥
+  https://blog.csdn.net/teobler/article/details/106481377
+  单点登录 – CAS与SAML之间的关系是什么？
+  http://www.voidcn.com/article/p-cymjzwxn-bue.html
+  过于详细！终于搞懂SSO里面的SAML和OIDC讲的啥了
+  https://www.jianshu.com/p/62aa38f5ead7
+  过于详细！终于搞懂SSO里面的SAML和OIDC讲的啥了
+  https://blog.csdn.net/weixin_51954021/article/details/109679786
+  SAML SSO从入门到放弃
+  https://zhuanlan.zhihu.com/p/137506751
+  SAML Web SSO学习
+  https://blog.csdn.net/xiangguiwang/article/details/66476171
+  基于SAML的单点登录/登出基本原理
+  https://www.pianshen.com/article/48971548644/
+  SAML2.0入门指南
+  https://www.jianshu.com/p/636c1ee16eba
+  How-to – Single sign on with Active directory and Apache
+  https://smeretech.com/single-sign-active-directory-apache/
+  How To Set Up Password Authentication with Apache on Ubuntu 18.04
+  https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-apache-on-ubuntu-18-04
 
 
 
@@ -235,26 +274,26 @@ http://dockone.io/article/8632
 
 #### 未分类
 * 大专栏
-https://www.dazhuanlan.com/devops/page/14140/
-base64
-https://baike.baidu.com/item/base64/8545775?fr=aladdin
-蓝绿部署、红黑部署、AB测试、灰度发布、金丝雀发布、滚动发布的概念与区别...
-https://blog.csdn.net/weixin_33912638/article/details/86430524?utm_medium=distribute.pc_feed_404.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase&dist_request_id=1328270.106.16164025401994877&depth_1-utm_source=distribute.pc_feed_404.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecas
-摘要算法、对称加密、非对称加密、数字签名、数字证书浅析
-https://blog.csdn.net/claram/article/details/79465163
-解析SSL单向认证和双向认证
-https://zhuanlan.zhihu.com/p/330393659
-SSL双向认证和SSL单向认证的区别
-https://www.jianshu.com/p/fb5fe0165ef2
-怎么保证「CA 的公钥」是真实的？
-https://www.zhihu.com/question/47232448
+  https://www.dazhuanlan.com/devops/page/14140/
+  base64
+  https://baike.baidu.com/item/base64/8545775?fr=aladdin
+  蓝绿部署、红黑部署、AB测试、灰度发布、金丝雀发布、滚动发布的概念与区别...
+  https://blog.csdn.net/weixin_33912638/article/details/86430524?utm_medium=distribute.pc_feed_404.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase&dist_request_id=1328270.106.16164025401994877&depth_1-utm_source=distribute.pc_feed_404.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecas
+  摘要算法、对称加密、非对称加密、数字签名、数字证书浅析
+  https://blog.csdn.net/claram/article/details/79465163
+  解析SSL单向认证和双向认证
+  https://zhuanlan.zhihu.com/p/330393659
+  SSL双向认证和SSL单向认证的区别
+  https://www.jianshu.com/p/fb5fe0165ef2
+  怎么保证「CA 的公钥」是真实的？
+  https://www.zhihu.com/question/47232448
 
 
 
 
-OAuth2.0 
+OAuth2.0
 JWT
-SSO 
+SSO
 SAML(idp, sp)都是什么关系？
 Basic
 
@@ -276,7 +315,7 @@ spc？CPC
 ## 路线
 * 做一个Audirno项目
 * 做一个语音转事件的插件开发
-* 
+*
 * splunk，ElasticSearch和Kibana的API
 * https://pages.github.tools.sap/perfx/cloud-logging-service/consumption/from-sap-cp-cf/
 * https://help.sap.com/viewer/4fe29514fd584807ac9f2a04f6754767/2.0.02/en-US/20f266137519101480abfc0aeb6c9dc3.html
@@ -310,7 +349,7 @@ assignee = “haytham.xu@sap.com”
 * https://zhuanlan.zhihu.com/p/33547017
 * I/O (InputStreamReader, LineNumberReader)
 * 事物回滚，配置事物
-* 
+*
 
 
 ## Lombok

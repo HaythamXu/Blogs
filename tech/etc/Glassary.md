@@ -1,3 +1,0 @@
-
-
-* SCM: software configuration management

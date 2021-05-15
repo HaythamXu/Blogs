@@ -6,7 +6,7 @@
 ## Branch
 * 切换远程分支`a`
 * 查看一个分支的父分支`git reflog show BRANCH_NAME`
-* 
+*
 
 #### Stash
 
@@ -17,7 +17,7 @@
 git config --global http.postBuffer 524288000
 
 3、压缩配置
-git config --global core.compression -1    
+git config --global core.compression -1
 
 4、修改配置文件
 export GIT_TRACE_PACKET=1

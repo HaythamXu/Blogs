@@ -3,9 +3,9 @@
 * 概念: 二叉树是只有两个字节点的特殊的树
 * 二叉树分类:
     * 满二叉树: 每个节点都2个子节点
-    * 完全二叉树: 
-    * 平衡二叉树(Balanced Binary Tree): 
-    * 平衡二叉排序树(): 
+    * 完全二叉树:
+    * 平衡二叉树(Balanced Binary Tree):
+    * 平衡二叉排序树():
     * 平衡二叉搜索树(Balanced Binary Search Tree):
 * 特殊的二叉树
     * 二叉搜索树(Binary Search Tree)

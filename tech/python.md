@@ -73,10 +73,70 @@ STRING_04 = re.sub(r' \s*', " ", STRING_03)
 
 
 
+#### Python3的新特性
+* 函数注解
 ```python
+# 定义参数的数据类型: `s: str`, 可以是数据类型，也可以是一段注解，注解使用""
+# 定义返回数据类型: `-> int`
+def functionName(s: str) -> int:
+    pass
 
+# 默认值
+def functionName(s: str = "defaultBalye") -> int:
+    pass
+
+# 返回可以是表达式，但是需要表达式的参数需要时长常量
+def functionName(a: int = 5, b: int = 7) ->pow(2,3):
+    z = lambda x, y:x*x  if x > y else y*y
+    return z(a,b)
 ```
 
+
+#### 基础操作
+* 定义:`list = []`
+* 添加: `list.append()`
+* 长度: `len(list)`
+* 删除: `a`
+
+
+
+#### delete element
+* 使用for循环删除元素的正确方式:
+```py
+for item in a_list[::-1]:
+    if CONDITION:
+        a_list.remove(item)
+```
+
+
+#### 基础操作
+* 定义: `dict = {}`
+* 添加: `dict[NEW_KEY] = NEW_VALUE`
+* 删除: `a`
+* 长度: `len(dict)`
+
+
+
+## 求极值
+#### 单字典
+```
+{
+    "A" : 3,
+    "B" : 4,
+    "C" : 5
+}
+```
+min()
+
+
+#### 字典列表
+```
+[ 
+    {"name":"A", "value": 3},
+    {"name":"B", "value": 4},
+    {"name":"C", "value": 5}
+]
+```
 
 
 ```py
