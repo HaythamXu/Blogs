@@ -1,5 +1,8 @@
 package algorithm.tree;
 
+import lombok.Data;
+
+@Data
 public class BTNode {
 
     public Integer val;

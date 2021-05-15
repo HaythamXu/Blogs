@@ -1,9 +1,14 @@
 package algorithm.tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class OperateTree {
+
+    private static List<Integer> list;
+    private static Queue<Integer> queue;
 
     private void fillBT(BTNode root) {
         if(root == null) return;
@@ -11,7 +16,7 @@ public class OperateTree {
     }
 
     // BT to List
-    public static List<Integer> breadthFirstSearch(BTNode root, List<Integer> intList) {
+    public static List<Integer> bfsSearchWithoutNull(BTNode root, List<Integer> intList) {
         if(intList == null) {
             intList = new ArrayList<>();
             intList.add(root.val);
@@ -19,10 +24,44 @@ public class OperateTree {
         if(root.left == null && root.right == null) return new ArrayList<>();
         if(root.left != null) intList.add(root.left.val);
         if(root.right != null) intList.add(root.right.val);
-        if(root.left != null) breadthFirstSearch(root.left, intList);
-        if(root.right != null) breadthFirstSearch(root.right, intList);
+        if(root.left != null) bfsSearchWithoutNull(root.left, intList);
+        if(root.right != null) bfsSearchWithoutNull(root.right, intList);
         return intList;
     }
+
+    public static List<Integer> bfsSearch(BTNode root, List<Integer> intList) {
+        if(intList == null) {
+            intList = new ArrayList<>();
+            if(root == null) return intList;
+            intList.add(root.val);
+        }
+        if(root == null) return intList;
+        else if(root.left == null && root.right == null) return intList;
+        else if(root.left != null && root.right == null) {
+            intList.add(root.left.val);
+            intList.add(null);
+        } else if(root.left == null && root.right != null) {
+            intList.add(null);
+            intList.add(root.right.val);
+        } else if(root.left != null && root.right != null) {
+            intList.add(root.left.val);
+            intList.add(root.right.val);
+        }
+        if(root.left != null) bfsSearch(root.left, intList);
+        if(root.right != null) bfsSearch(root.right, intList);
+        return intList;
+    }
+
+    public static List<Integer> bfs(BTNode node) {
+        OperateTree.queue = new LinkedList<>();
+        return null;
+    }
+
+    private void helper(BTNode node) {
+        if(node == null) return;
+//        OperateTree.queue.
+    }
+
     public static List<Integer> firstDepthFirstSearch(BTNode node, List<Integer> intList) {
         if(intList == null) intList = new ArrayList<>();
         if(node == null) return new ArrayList<>();
@@ -31,6 +70,7 @@ public class OperateTree {
         firstDepthFirstSearch(node.right, intList);
         return intList;
     }
+
     public static List<Integer> middleDepthFirstSearch(BTNode node, List<Integer> intList) {
         if(intList == null) intList = new ArrayList<>();
         if(node == null) return new ArrayList<>();
@@ -39,6 +79,7 @@ public class OperateTree {
         middleDepthFirstSearch(node.right, intList);
         return intList;
     }
+
     public static List<Integer> endDepthFirstSearch(BTNode node, List<Integer> intList) {
         if(intList == null) intList = new ArrayList<>();
         if(node == null) return new ArrayList<>();
