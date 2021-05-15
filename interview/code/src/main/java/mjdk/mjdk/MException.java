@@ -1,4 +1,4 @@
-package mjdk.etc;
+package mjdk.mjdk;
 
 public class MException {
 }

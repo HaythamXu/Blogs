@@ -7,8 +7,10 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Queue;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -254,6 +256,20 @@ public class DataType {
 //
 //        System.out.println(str1.indexOf("b"));
 //        System.out.println(str1.indexOf(1));
+    }
+
+    @Test
+    public void temp() {
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(1);
+        queue.add(2);
+        queue.add(3);
+//        queue.remove(); // remove the first
+        System.out.println(queue.peek()); // get the first one
+        System.out.println(queue.poll()); // remove the first one
+        queue.clear();
+        System.out.println();
+        System.out.println(queue);
     }
 
 }

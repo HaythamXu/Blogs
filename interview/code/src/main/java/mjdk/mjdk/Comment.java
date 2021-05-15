@@ -1,11 +1,10 @@
-package mjdk.etc;
+package mjdk.mjdk;
 
 import lombok.Getter;
 import lombok.Setter;
 
 /**
  * @author Haytham Xu
- * @deprecated 11
  * {@docRoot}
  * {@inheritDoc}
  * {@link org.apache.catalina.Executor}
@@ -17,10 +16,9 @@ import lombok.Setter;
  *
  */
 
+//  @deprecated
 
 /*
-*
-*
 *
 */
 
