@@ -31,9 +31,9 @@ class ClassAdapter extends Banner {
 class ClassAdapter2 extends Banner {
     public ClassAdapter2(String string) { super(string); }
 //    @Override   // ？？重名与override？
-    public void showWithParen() { System.out.println("(" + super.string + ")"); }
+    public void showWithParen() { System.out.println("((" + super.string + "))"); }
 //    @Override
-    public void showWithAster() { System.out.println("*" + super.string + "*"); }
+    public void showWithAster() { System.out.println("**" + super.string + "**"); }
 
 }
 

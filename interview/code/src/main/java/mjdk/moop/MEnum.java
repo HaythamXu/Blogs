@@ -1,4 +1,4 @@
-package mjdk.mobject;
+package mjdk.moop;
 
 public class MEnum {
 
